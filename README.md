@@ -90,21 +90,14 @@ intel-sentiment-analysis/
     ```
 2. **Data Preprocessing**: To preprocess the scraped data, run:
     ```bash
-    python src/data/preprocessing.py
+    https://github.com/Aayushkr2574/Team-Pandavs-Intel-Unnati-Industrial-Training--Intel-Product-Sentiment-Analysis-/blob/main/Translation%20code.ipynb
     ```
 3. **Model Training and Evaluation**:
     - Sentiment Analysis:
         ```bash
-        python src/models/sentiment_model.py
+        https://github.com/Aayushkr2574/Team-Pandavs-Intel-Unnati-Industrial-Training--Intel-Product-Sentiment-Analysis-/blob/main/sentiment%20code.ipynb
         ```
-    - Clustering Analysis:
-        ```bash
-        python src/models/clustering_model.py
-        ```
-    - Trends Analysis:
-        ```bash
-        python src/models/trends_model.py
-        ```
+    
 
 ### Contributions
 Contributions are welcome! Please open an issue or submit a pull request for any features, bug fixes, or enhancements.
