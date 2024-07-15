@@ -86,7 +86,7 @@ intel-sentiment-analysis/
 ### Usage
 1. **Data Scraping**: To scrape data, run:
     ```bash
-    python src/data/scraping.py
+    https://github.com/Aayushkr2574/Team-Pandavs-Intel-Unnati-Industrial-Training--Intel-Product-Sentiment-Analysis-/blob/main/Web%20Scraping%20code.ipynb
     ```
 2. **Data Preprocessing**: To preprocess the scraped data, run:
     ```bash
