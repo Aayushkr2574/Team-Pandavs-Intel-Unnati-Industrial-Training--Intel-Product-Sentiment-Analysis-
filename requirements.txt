@@ -1,0 +1,14 @@
+requests
+pandas
+beautifulsoup4
+lxml
+googletrans==4.0.0-rc1
+nltk
+wordcloud
+scikit-learn
+matplotlib
+seaborn
+textblob
+plotly
+cufflinks
+imblearn
