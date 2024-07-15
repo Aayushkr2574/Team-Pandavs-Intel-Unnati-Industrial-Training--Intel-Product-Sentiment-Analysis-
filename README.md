@@ -103,7 +103,7 @@ intel-sentiment-analysis/
 Contributions are welcome! Please open an issue or submit a pull request for any features, bug fixes, or enhancements.
 
 ### License
-This project is licensed under the MIT License. See the (LICENSE) file for more details.
+This project is licensed under the MIT License. See the (https://github.com/Aayushkr2574/Team-Pandavs-Intel-Unnati-Industrial-Training--Intel-Product-Sentiment-Analysis-/blob/main/LICENSE) file for more details.
 
 ### Contact
 For any questions or suggestions, please contact (mailto:aayush2574@gmail.com).
