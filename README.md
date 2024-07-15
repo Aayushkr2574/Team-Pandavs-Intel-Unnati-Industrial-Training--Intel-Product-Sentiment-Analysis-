@@ -27,3 +27,90 @@ Intel Products are reviewed by end users and tech reviewers on various platforms
 - Deliver key summary and recommendation slides based on the analysis and model outcomes.
 
 ### Project Structure
+intel-sentiment-analysis/
+│
+├── data/
+│ ├── raw/
+│ ├── processed/
+│ ├── train/
+│ └── test/
+│
+├── notebooks/
+│ ├── data_exploration.ipynb
+│ ├── sentiment_analysis.ipynb
+│ ├── clustering_analysis.ipynb
+│ ├── trends_analysis.ipynb
+│ └── feature_extraction.ipynb
+│
+├── src/
+│ ├── data/
+│ │ ├── scraping.py
+│ │ ├── preprocessing.py
+│ │ └── etl.py
+│ │
+│ ├── models/
+│ │ ├── sentiment_model.py
+│ │ ├── clustering_model.py
+│ │ └── trends_model.py
+│ │
+│ └── utils/
+│ ├── helpers.py
+│ └── metrics.py
+│
+├── reports/
+│ ├── key_summary.pdf
+│ ├── recommendations.pdf
+│ └── performance_metrics.pdf
+│
+├── .gitignore
+├── README.md
+└── requirements.txt
+
+
+### Installation
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/intel-sentiment-analysis.git
+    cd intel-sentiment-analysis
+    ```
+2. Create a virtual environment and activate it:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
+3. Install the required packages:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+### Usage
+1. **Data Scraping**: To scrape data, run:
+    ```bash
+    python src/data/scraping.py
+    ```
+2. **Data Preprocessing**: To preprocess the scraped data, run:
+    ```bash
+    python src/data/preprocessing.py
+    ```
+3. **Model Training and Evaluation**:
+    - Sentiment Analysis:
+        ```bash
+        python src/models/sentiment_model.py
+        ```
+    - Clustering Analysis:
+        ```bash
+        python src/models/clustering_model.py
+        ```
+    - Trends Analysis:
+        ```bash
+        python src/models/trends_model.py
+        ```
+
+### Contributions
+Contributions are welcome! Please open an issue or submit a pull request for any features, bug fixes, or enhancements.
+
+### License
+This project is licensed under the MIT License. See the (LICENSE) file for more details.
+
+### Contact
+For any questions or suggestions, please contact (mailto:aayush2574@gmail.com).
