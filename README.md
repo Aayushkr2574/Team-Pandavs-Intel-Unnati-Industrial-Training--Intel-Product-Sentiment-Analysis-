@@ -70,15 +70,9 @@ intel-sentiment-analysis/
 ### Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/intel-sentiment-analysis.git
-    cd intel-sentiment-analysis
+    git clone https://github.com/Aayushkr2574/Team-Pandavs-Intel-Unnati-Industrial-Training--Intel-Product-Sentiment-Analysis-.git
     ```
-2. Create a virtual environment and activate it:
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
-3. Install the required packages:
+2. Install the required packages:
     ```bash
     pip install -r requirements.txt
     ```
